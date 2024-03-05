@@ -1,0 +1,11 @@
+openapi: 3.0.1
+info:
+  title: Iframe
+  description: ""
+  x-cortex-tag: iframe
+  x-cortex-git:
+    github:
+      repository: ilya-cortex-org/iframe
+  x-cortex-custom-metadata:
+    cortex-template-version: 0.1.0
+    cortex-generated-timestamp: 2024-03-05T15:31:54.360011789
