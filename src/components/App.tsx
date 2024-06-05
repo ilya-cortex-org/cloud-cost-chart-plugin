@@ -7,6 +7,8 @@ import {
 } from "@cortexapps/plugin-core/components";
 import "../baseStyles.css";
 import ErrorBoundary from "./ErrorBoundary";
+import LineChart from "./LineChart";
+
 import PluginContext from "./PluginContext";
 
 const App: React.FC = () => {
@@ -15,12 +17,14 @@ const App: React.FC = () => {
       <PluginProvider>
         <Stack>
           <Logo />
-          <Title level={1}>My Awesome Cortex Plugin</Title>
+          <Title level={1}>Line Chart Example</Title>
         </Stack>
+        <LineChart />
         <PluginContext />
       </PluginProvider>
     </ErrorBoundary>
   );
 };
+
 
 export default App;

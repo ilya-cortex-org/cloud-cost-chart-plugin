@@ -1,3 +1,6 @@
 body {
   font: 14px sans-serif;
 }
+.iframe {
+  height: 100%;
+}
