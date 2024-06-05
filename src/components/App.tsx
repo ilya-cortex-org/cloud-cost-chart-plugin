@@ -1,6 +1,5 @@
 import type React from "react";
 import {
-  // Logo,
   PluginProvider,
   Stack,
   Title,
@@ -9,22 +8,17 @@ import "../baseStyles.css";
 import ErrorBoundary from "./ErrorBoundary";
 import LineChart from "./LineChart";
 
-import PluginContext from "./PluginContext";
-
 const App: React.FC = () => {
   return (
     <ErrorBoundary>
       <PluginProvider>
         <Stack>
-          {/* <Logo /> */}
           <Title level={1}>Cloud costs in the last 8 weeks</Title>
         </Stack>
         <LineChart />
-        <PluginContext />
       </PluginProvider>
     </ErrorBoundary>
   );
 };
-
 
 export default App;
