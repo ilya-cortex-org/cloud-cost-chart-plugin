@@ -6,8 +6,10 @@ const PluginContext: React.FC = () => {
 
   return (
     <>
+      <div style={{display:"none"}}>
       <Title level={2}>Plugin context</Title>
       <pre>{JSON.stringify(context, null, 2)}</pre>
+      </div>
     </>
   );
 };

@@ -1,6 +1,6 @@
 import type React from "react";
 import {
-  Logo,
+  // Logo,
   PluginProvider,
   Stack,
   Title,
@@ -16,8 +16,8 @@ const App: React.FC = () => {
     <ErrorBoundary>
       <PluginProvider>
         <Stack>
-          <Logo />
-          <Title level={1}>Line Chart Example</Title>
+          {/* <Logo /> */}
+          <Title level={1}>Cloud costs in the last 8 weeks</Title>
         </Stack>
         <LineChart />
         <PluginContext />
